@@ -11,6 +11,16 @@ export default {
         title: 'Name'
       },
       {
+        name: 'title',
+        type: 'string',
+        title: 'Title'
+      },
+      {
+        name: 'summary',
+        type: 'text',
+        title: 'Summary'
+      },
+      {
         name: 'email',
         type: 'email',
         title: 'Email'
