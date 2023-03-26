@@ -16,6 +16,16 @@ export default {
         title: 'Title'
       },
       {
+        name:"about",
+        type:"text",
+        title:"About"
+      },
+      {
+        name: 'resume',
+        type: 'file',
+        title: 'Resume'
+      },
+      {
         name: 'summary',
         type: 'text',
         title: 'Summary'
@@ -30,6 +40,12 @@ export default {
         title: 'Links',
         type: 'array',
         of: [{type: 'link'}]
+      },
+      {
+        name: "skill",
+        type: "array",
+        title: "Skills",
+        of: [{ type: "skill" }]
       },
       {
         name: 'number',
